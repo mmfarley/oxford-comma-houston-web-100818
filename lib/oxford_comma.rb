@@ -5,7 +5,7 @@ if array.size == 0 || array.size == 1
   elsif array.size == 2
   string = array.join(" and ")
 else
-  string = "#{array[0..array.size-2].join(", ")}, and  #{array[-1]}"
+  string = "#{array[0..array.size-2].join(", ")}, and #{array[-1]}"
 end
 string
 end
