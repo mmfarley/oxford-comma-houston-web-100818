@@ -5,4 +5,5 @@ if array.size == 0 || array.size == 1
 else
   string = "#{array[0..array.size-2].join(", ")}, and  #{array[-1]}"
 end
+string
 end
